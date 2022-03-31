@@ -1,0 +1,106 @@
+{
+    "Productos": {
+        "product1": {
+            "id": 0,
+            "nombre": "Chaqueta de rugby",
+            "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+            "precio": 41,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "/img/Objeto/Objetos/ChaquetaRugby/Img_pruebas1.jpg",
+            "altPhotos": [
+                "/img/Objetos/ChaquetaRugby/img1.jpg",
+                "/img/Objetos/ChaquetaRugby/img2.jpg",
+                "/img/Objetos/ChaquetaRugby/img3.jpg",
+                "/img/Objetos/ChaquetaRugby/img4.jpg",
+                "/img/Objetos/ChaquetaRugby/img5.jpg",
+                "/img/Objetos/ChaquetaRugby/img6.jpg"
+            ]
+        },
+        "product2": {
+            "id": 1,
+            "nombre": "Chaqueta de rugby",
+            "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+            "precio": 42,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "/img/Objeto/Objetos/ChaquetaRugby/Img_pruebas2.jpg",
+            "altPhotos": [
+                "/img/Objeto/Objetos/ChaquetaRugby/img1.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img2.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img3.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img4.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img5.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img6.jpg"
+            ]
+        },
+        "product3": {
+            "id": 2,
+            "nombre": "Chaqueta de rugby",
+            "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+            "precio": 43,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "/img/Objeto/Objetos/ChaquetaRugby/Img_pruebas3.jpg",
+            "altPhotos": [
+                "/img/Objeto/Objetos/ChaquetaRugby/img1.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img2.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img3.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img4.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img5.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img6.jpg"
+            ]
+        },
+        "product4": {
+            "id": 3,
+            "nombre": "Chaqueta de rugby",
+            "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+            "precio": 44,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "/img/Objeto/Objetos/ChaquetaRugby/Img_pruebas4.jpg",
+            "altPhotos": [
+                "/img/Objeto/Objetos/ChaquetaRugby/img1.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img2.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img3.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img4.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img5.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img6.jpg"
+            ]
+        },
+        "product5": {
+            "id": 4,
+            "nombre": "Chaqueta de rugby",
+            "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+            "precio": 55,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "/img/Objeto/Objetos/ChaquetaRugby/Img_pruebas5.jpg",
+            "altPhotos": [
+                "/img/Objeto/Objetos/ChaquetaRugby/img1.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img2.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img3.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img4.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img5.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img6.jpg"
+            ]
+        },
+        "product6": {
+            "id": 5,
+            "nombre": "Chaqueta de rugby",
+            "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+            "precio": 56,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "/img/Objeto/Objetos/ChaquetaRugby/Img_pruebas6.jpg",
+            "altPhotos": [
+                "/img/Objeto/Objetos/ChaquetaRugby/img1.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img2.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img3.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img4.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img5.jpg",
+                "/img/Objeto/Objetos/ChaquetaRugby/img6.jpg"
+            ]
+        }
+    }
+}

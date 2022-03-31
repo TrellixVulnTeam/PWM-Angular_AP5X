@@ -1,0 +1,23 @@
+{
+    "Usuarios": [{
+            "id": 1,
+            "nombre": "Aitana",
+            "correo": "aitanacc@gmail.com",
+            "password": "1234",
+            "listaCompra": [],
+            "listaVenta": [],
+            "listaFavorito_Compra": [],
+            "listaFavorito_Venta": []
+        },
+        {
+            "id": 2,
+            "nombre": "Cristóbal",
+            "correo": "nanoJJG@gmail.com",
+            "password": "1234",
+            "listaCompra": [],
+            "listaVenta": [],
+            "listaFavorito_Compra": [],
+            "listaFavorito_Venta": []
+        }
+    ]
+}

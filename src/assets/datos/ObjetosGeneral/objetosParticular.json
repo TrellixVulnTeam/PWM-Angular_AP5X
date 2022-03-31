@@ -1,0 +1,41 @@
+{
+    "Productos": {
+        "product1": {
+            "id": 0,
+            "nombre": "Pantalones anchos con emojis",
+            "descripcion": "Son unos pantalones bastante anchitos con dos caritas sonrientes, talla M y tal...",
+            "precio": 41,
+            "ubicacion": "7 Palmas",
+            "sellerUsername": "NanoJJG",
+            "mainPhoto": "https://cdn.wallapop.com/images/10420/co/ew/__/c10420p766599614/i2528574130.jpg?pictureSize=W320"
+        },
+        "product2": {
+            "id": 1,
+            "nombre": "Bambas Nike",
+            "descripcion": "Bambas nike altas, quedan bien para combinar y tal...",
+            "precio": 70,
+            "ubicacion": "",
+            "sellerUsername": "NanoJJG",
+            "categoria": "Abrigo",
+            "mainPhoto": "https://cdn.wallapop.com/images/10420/cp/9g/__/c10420p768025615/i2536388113.jpg?pictureSize=W320"
+        },
+        "product3": {
+            "id": 2,
+            "nombre": "Playeras New Balance",
+            "descripcion": "Playeras New Balance, blaquitas, precio a hablar y tal...",
+            "precio": 50,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "https://cdn.wallapop.com/images/10420/cp/gv/__/c10420p768371821/i2538076887.jpg?pictureSize=W320"
+        },
+        "product4": {
+            "id": 3,
+            "nombre": "Sudadera Nike",
+            "descripcion": "Bonita sudadera nike, original, con etiqueta, si quieren mando foto y tal...",
+            "precio": 82,
+            "categoria": "Abrigo",
+            "empresa": "ULPGC",
+            "mainPhoto": "https://cdn.wallapop.com/images/10420/cp/i0/__/c10420p768424532/i2538783434.jpg?pictureSize=W640"
+        }
+    }
+}
