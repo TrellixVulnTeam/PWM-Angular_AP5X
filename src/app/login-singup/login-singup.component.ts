@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http'; 
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-singup',
@@ -23,15 +24,9 @@ export class LoginSingupComponent {
 
   users:any = {};
   cargada = false;
-  constructor( private http:HttpClient) { 
-    console.log("Servicio corriendo");
-    http.get("../../assets/datos/usuarios.json")
-      .subscribe( resp => {
-        this.users = resp;
-        this.cargada=true;
-      });
-  }
 
-  LogIn(){}
+  constructor( private http:HttpClient) { }
+  
+  LogIn = function(){};
 
 }

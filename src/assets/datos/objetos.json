@@ -1,0 +1,105 @@
+{
+    "Productos":[
+        {
+        "id": 0,
+        "nombre": "Chaqueta de rugby",
+        "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+        "precio": 41,
+        "categoria": "Abrigo",
+        "empresa": "ULPGC",
+        "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas1.jpg",
+        "altPhotos": [
+            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+        ]
+    },
+    {
+        "id": 1,
+        "nombre": "Chaqueta de rugby",
+        "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+        "precio": 42,
+        "categoria": "Abrigo",
+        "empresa": "ULPGC",
+        "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas2.jpg",
+        "altPhotos": [
+            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Chaqueta de rugby",
+        "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+        "precio": 43,
+        "categoria": "Abrigo",
+        "empresa": "ULPGC",
+        "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas3.jpg",
+        "altPhotos": [
+            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Chaqueta de rugby",
+        "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+        "precio": 44,
+        "categoria": "Abrigo",
+        "empresa": "ULPGC",
+        "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas4.jpg",
+        "altPhotos": [
+            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Chaqueta de rugby",
+        "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+        "precio": 55,
+        "categoria": "Abrigo",
+        "empresa": "ULPGC",
+        "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas5.jpg",
+        "altPhotos": [
+            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Chaqueta de rugby",
+        "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+        "precio": 56,
+        "categoria": "Abrigo",
+        "empresa": "ULPGC",
+        "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas6.jpg",
+        "altPhotos": [
+            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
+            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+        ]
+    }]
+}
