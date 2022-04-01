@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Product } from '../interfaces/product';
-import { JSONService } from '../json.service';
+import { JSONService } from '../services/json.service';
 
 @Component({
   selector: 'app-catalogo',
@@ -21,5 +21,5 @@ export class CatalogoComponent {
                console.log(this.productos);
             });
   }
-  
+
 }
