@@ -54,6 +54,7 @@ input[type="submit"],
 input[type="password"],
 input[type="email"]{
     text-align: center;
+    width: 40%;
     border-radius: 5px;
     font-size: large;
     background-color: #eee;

@@ -9,12 +9,12 @@
         "empresa": "ULPGC",
         "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas1.jpg",
         "altPhotos": [
-            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+            ["../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0],
+            ["../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1],
+            ["../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2],
+            ["../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3],
+            ["../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4],
+            ["../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5]
         ]
     },
     {
@@ -26,12 +26,12 @@
         "empresa": "ULPGC",
         "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas2.jpg",
         "altPhotos": [
-            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+            ["../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0],
+            ["../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1],
+            ["../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2],
+            ["../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3],
+            ["../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4],
+            ["../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5]
         ]
     },
     {
@@ -43,12 +43,12 @@
         "empresa": "ULPGC",
         "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas3.jpg",
         "altPhotos": [
-            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+            ["../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0],
+            ["../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1],
+            ["../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2],
+            ["../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3],
+            ["../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4],
+            ["../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5]
         ]
     },
     {
@@ -60,12 +60,12 @@
         "empresa": "ULPGC",
         "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas4.jpg",
         "altPhotos": [
-            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+            ["../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0],
+            ["../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1],
+            ["../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2],
+            ["../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3],
+            ["../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4],
+            ["../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5]
         ]
     },
     {
@@ -77,12 +77,12 @@
         "empresa": "ULPGC",
         "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas5.jpg",
         "altPhotos": [
-            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+            ["../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0],
+            ["../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1],
+            ["../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2],
+            ["../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3],
+            ["../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4],
+            ["../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5]
         ]
     },
     {
@@ -94,12 +94,12 @@
         "empresa": "ULPGC",
         "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas6.jpg",
         "altPhotos": [
-            "../../assets/images/objetos/ChaquetaRugby/img1.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img2.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img3.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img4.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img5.jpg",
-            "../../assets/images/objetos/ChaquetaRugby/img6.jpg"
+            ["../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0],
+            ["../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1],
+            ["../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2],
+            ["../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3],
+            ["../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4],
+            ["../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5]
         ]
     }]
 }

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http'; 
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { JSONService } from '../../services/json.service';
 
 @Component({
   selector: 'app-login-singup',
@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 
 
 export class LoginSingupComponent {
-
+  /* Atributos */
   userLogIn = {
     password:"",
     correo:"",
@@ -22,11 +22,36 @@ export class LoginSingupComponent {
     correo:"",
   }
 
-  users:any = {};
+  users:any;
+  json:JSONService
   cargada = false;
 
-  constructor( private http:HttpClient) { }
+  constructor( private http:HttpClient, public json_:JSONService) {
+    this.json = json_;
+   }
+
+  register(){
+    this.json.getJSONUsers().subscribe( (resp:any) => {
+      this.users = resp.Usuarios
+      if(this.exists()){
+        console.log("Ya existe usuario con ese correo")
+      }else{
+        console.log("Podrá ser añadido")
+      }
+    });
+  }
+
   
-  LogIn = function(){};
+  protected exists():boolean{
+    console.log(this.userRegister)
+    for(let i = 0; i < this.users.length; i++){
+      if((this.users[i].correo) == (this.userRegister.correo)){
+        return true;
+      }
+    }
+    return false;
+  }
+
+
 
 }

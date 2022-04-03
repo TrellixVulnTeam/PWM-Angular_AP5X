@@ -4,7 +4,5 @@ export interface User {
     "correo":               string,
     "password":             string,
     "listaCompra":          [],
-    "listaVenta":           [],
-    "listaFavorito_Compra": [],
-    "listaFavorito_Venta":  []
+    "listaFavorito_Compra": []
 }

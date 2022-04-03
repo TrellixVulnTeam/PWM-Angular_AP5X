@@ -10,6 +10,13 @@ import { HeaderCompraComponent } from './header-footer/header-compra/header-comp
 import { LoginSingupComponent } from './login-singup/login-singup.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { CestaComponent } from './Cesta/cesta/cesta.component';
+import { ListaDeOpcionesComponent } from './Cesta/basic-components/lista-de-opciones/lista-de-opciones.component';
+import { OpcionTiendaComponent } from './Cesta/opciones/opcion-tienda/opcion-tienda.component';
+import { OpcionDomicilioComponent } from './Cesta/opciones/opcion-domicilio/opcion-domicilio.component';
+import { CarritoCostoComponent } from './Cesta/basic-components/carrito-costo/carrito-costo.component';
+import { FormCortoComponent } from './Cesta/opciones/form-corto/form-corto.component';
+import { PayComponent } from './Cesta/opciones/pay/pay.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +25,14 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HeaderCompraComponent,
     LoginSingupComponent,
     CatalogoComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CestaComponent,
+    ListaDeOpcionesComponent,
+    OpcionTiendaComponent,
+    OpcionDomicilioComponent,
+    CarritoCostoComponent,
+    FormCortoComponent,
+    PayComponent
   ],
   imports: [
     BrowserModule,

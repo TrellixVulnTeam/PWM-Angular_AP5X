@@ -8,7 +8,7 @@
             </div>
             <div class="cent">
                 <!--<form action="LogIn">-->
-                <form (ngSubmit)="LogIn()" #forma1="ngForm">
+                <form #forma1="ngForm">
                     <div>
                         <input type="email" class="txtsin" id="LoginEmail" placeholder="Dirección de e-mail" required
                             #email = "ngModel" [(ngModel)] = "userLogIn.correo" name="email"
@@ -24,7 +24,8 @@
                         <input type="submit" id="btnLogin" value="Iniciar Sesión" [disabled]="forma1.invalid"/>
                     </div>
                 </form>
-                <a [routerLink]="['/catalogo']">Categorias</a>
+                <a [routerLink]="['/catalogo']">Categorias</a><br/>
+                <a [routerLink]="['/cesta']">Cesta</a>
             </div>
         </div>
 
@@ -34,7 +35,7 @@
             <div>
                 <h3 class="cent">REGISTRARSE</h3>
             </div>
-            <form (ngSubmit)="LogIn()" #forma2="ngForm">
+            <form #forma2="ngForm">
                 <div>
                     <input type="email" class="txtsin" id="signInEmail" placeholder="Dirección de e-mail" required
                         #correo = "ngModel" [(ngModel)] = "userRegister.correo" name="correo"
@@ -48,12 +49,9 @@
                 <div>
                     <input type="text" class="txtsin" id="nombre" placeholder="Nombre" required
                         #nombre = "ngModel" [(ngModel)] = "userRegister.nombre" name="nombre" 
-                        pattern="([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ']{2,25})+([,]{1})+([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ']{2,25})+([,]{1})+([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ']{2,25})" 
+                        pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ ]+" 
                     />
                     <div class="invalid-feedback" *ngIf="nombre.invalid && (nombre.dirty || nombre.touched)">
-                        <div *ngIf="nombre.errors?.['maxlength']">
-                            El nombre de usuario debe tener como máximo 25 caracteres.
-                        </div>
                         <div *ngIf="nombre.errors?.['required']">
                             El nombre de usuario es obligatorio.
                         </div> 
@@ -75,7 +73,7 @@
                 </div>
                 <!--Botón para acceder-->
                 <div class="cent">
-                    <input type="submit" id="btnRegister" value="Enviar" [disabled]="forma2.invalid"/>
+                    <input type="submit" (click)="register();" id="btnRegister" value="Enviar" [disabled]="forma2.invalid"/>
                 </div>
             </form>
         </div>

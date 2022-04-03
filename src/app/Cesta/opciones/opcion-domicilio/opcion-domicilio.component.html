@@ -1,0 +1,37 @@
+<app-header-compra></app-header-compra>
+<!--Parte de arriba-->
+<div class="recuadro">
+    <div class="cabecera">
+        <p class="t-cabecera">Datos de envío</p>
+    </div>
+    <div class="ext-fl">
+        <form action="/web/Compra/Cesta/opMetodoCompra.html">
+            <!--Nombre completo-->
+            <input type="text" placeholder="Nombre" id="nombre" class=" inp-txt" required>
+            <input type="text" placeholder="Apellido" id="apellido" class="inp-txt der" required>
+
+            <!--Contacto-->
+            <input type="tel" id="numTel" pattern="[6-7][0-9]{8}" placeholder="Número de teléfono" class="inp-txt der" required>
+            <input type="email" name="email" id="email" placeholder="nano@gmail.com" class=" inp-txt" required>
+            
+            <!--Ubicación-->
+            <input type="text" name="direccion" id="direccion" class=" inp-txt  der" required placeholder="Dirección">
+            <input type="text" name="codPostal" id="codPostal" pattern="[0-9]{5}" class=" inp-txt" placeholder="Código Postal">
+            <input type="text" name="ciudad" id="ciudad" class=" inp-txt der" placeholder="Ciudad">
+            <input type="text" name="provincia" id="provincia" class=" inp-txt" placeholder="Provincia">
+            
+
+            <!--Parte de las políticas de privacidad-->
+            <div class="pp">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">
+                    He podido leer y entiendo la información sobre el uso de mis datos 
+                    personales explicada en la política de pivacidad
+                </label>
+            </div>
+            <div class="cent"><input type="submit"></div>
+        
+        </form>
+    </div>
+</div>
+<app-footer></app-footer>

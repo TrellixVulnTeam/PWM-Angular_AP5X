@@ -1,0 +1,31 @@
+<app-header-compra></app-header-compra>
+
+<!--Cuadro con contenido-->
+<div class="recuadro top-l">
+    <!--Cabecera que ponga Ubicacion-->
+    <div class="cabecera">
+        <p class="t-cabecera">Ubicación, Código Postal, ciudad...</p>
+    </div>
+    <div class="flex-1">
+
+        <!--Cuadro izquierdo con la zona de las tiendas-->
+        <div class="tiendas">
+            <ul id="tiendas">
+                <li class="tienda">Tienda 1</li>
+                <li class="tienda">Tienda 2</li>
+            </ul>
+            <div class="cent">
+                <form [routerLink]="['/form-tienda']">
+                    <input type="submit" value="Continuar">
+                </form>
+            </div>
+        </div>
+        <!--Cuadro derecho con el mapa-->
+        <div id="mapa" class="mapa">
+            <div class="t-mapa">Mapa</div>
+        </div>
+    </div>
+    <app-carrito-costo></app-carrito-costo>
+</div>
+
+<app-footer></app-footer>

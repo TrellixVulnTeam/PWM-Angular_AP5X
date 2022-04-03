@@ -5,9 +5,7 @@
             "correo": "aitanacc@gmail.com",
             "password": "1234",
             "listaCompra": [],
-            "listaVenta": [],
-            "listaFavorito_Compra": [],
-            "listaFavorito_Venta": []
+            "listaFavorito_Compra": []
         },
         {
             "id": 2,
@@ -15,9 +13,7 @@
             "correo": "nanoJJG@gmail.com",
             "password": "1234",
             "listaCompra": [],
-            "listaVenta": [],
-            "listaFavorito_Compra": [],
-            "listaFavorito_Venta": []
+            "listaFavorito_Compra": []
         }
     ]
 }
