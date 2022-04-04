@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['../../opciones.css', '../../../catalogo/catalogo.component.css']
 })
 export class OpcionDomicilioComponent {
-
+  userInfo = {
+    nombre:"",
+    apellidos:"",
+    correo:"",
+    telefono:"",
+    direccion:"",
+    codPostal:"",
+    ciudad:"",
+    provincia:""
+  }
 }

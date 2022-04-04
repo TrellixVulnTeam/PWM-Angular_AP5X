@@ -55,10 +55,14 @@
                 </div>
                 <div>
                     <input type="email" name="email" id="email" placeholder="nano@gmail.com" class=" inp-txt" required
-                        #correo = "ngModel" [(ngModel)] = "userInfo.correo" name="correo"/>
+                    pattern="[a-zA-Z0-9!#$%&'*_+-]([\.]?[a-zA-Z0-9!#$%&'*_+-])+@[a-zA-Z0-9]([^@&%$\/()=?¿!.,:;]|\d)+[a-zA-Z0-9][\.][a-zA-Z]{2,4}([\.][a-zA-Z]{2})?"
+                    #correo = "ngModel" [(ngModel)] = "userInfo.correo" name="correo" />
                     <div class="invalid-feedback" *ngIf="correo.invalid && (correo.dirty || correo.touched)">
                         <div *ngIf="correo.errors?.['required']">
                             El correo obligatorio.
+                        </div> 
+                        <div *ngIf="correo.errors?.['pattern']">
+                            No es un correo válido.
                         </div> 
                     </div>
                 </div>

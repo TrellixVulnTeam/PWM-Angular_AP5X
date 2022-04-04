@@ -39,10 +39,13 @@
                 <div>
                     <input type="email" class="txtsin" id="signInEmail" placeholder="Dirección de e-mail" required
                         #correo = "ngModel" [(ngModel)] = "userRegister.correo" name="correo"
-                    />
+                        pattern="[a-zA-Z0-9!#$%&'*_+-]([\.]?[a-zA-Z0-9!#$%&'*_+-])+@[a-zA-Z0-9]([^@&%$\/()=?¿!.,:;]|\d)+[a-zA-Z0-9][\.][a-zA-Z]{2,4}([\.][a-zA-Z]{2})?"/>
                     <div class="invalid-feedback" *ngIf="correo.invalid && (correo.dirty || correo.touched)">
                         <div *ngIf="correo.errors?.['required']">
                             El nombre de usuario es obligatorio.
+                        </div> 
+                        <div *ngIf="correo.errors?.['pattern']">
+                            No es un correo válido.
                         </div> 
                     </div>
                 </div>
