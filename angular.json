@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "PWM-ANGULAR:build:production",
+            "firebaseProject": "pwm-angular-shoppin-web",
+            "firebaseHostingSite": "pwm-angular-shoppin-web"
+          }
         }
       }
     }

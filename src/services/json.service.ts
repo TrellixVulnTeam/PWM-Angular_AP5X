@@ -6,7 +6,6 @@ import { User } from "../interfaces/user";
 @Injectable({
     providedIn: 'root'
 })
-
 export class JSONService{
     constructor (private http: HttpClient){}
 
