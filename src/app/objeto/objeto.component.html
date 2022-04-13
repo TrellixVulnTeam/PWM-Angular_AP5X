@@ -1,0 +1,51 @@
+<app-header-compra></app-header-compra>
+<div class="med">
+    <!--Div imagen-->
+    <div>
+        <img id="mainPhoto" class="img"/>
+    </div>
+
+    <!--Div información-->
+    <div class="recuadro">
+        <!--Info-->
+        <div>
+            <div><h2 id="objName"></h2></div>
+            <div><h3 id="precio"></h3></div>
+            <div><p id="empresa"></p></div>
+        </div>
+
+        <!--Fotos de otros colores-->
+        <div class="flex" id="altPhotos">
+            <!-- Esto se usará luego para la realización de colores alternativos -->
+            <template>
+                <div><img src="/img/Objeto/img2.jpg" id="alt1" class="opcion" /></div>
+            </template>
+            <div *ngFor="let altImg of "></div>
+        </div>
+
+        <br>
+        <div>
+            <!--Tallas y fav-->
+            <div>
+                Seleccionar talla: <br/>
+                <select name="talla" id="talla">
+                    <option value="xs">XS</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </div>
+
+            <!--Añadir al carrito con las opciones seleccionadas-->
+            <div class="flex">
+                <input type="button" id="addCarrito" onclick="addCarrito" value="Añadir al carrito">
+                <br/><br/>
+                <button id="addFavourite" onclick="addFavourite">
+                    <p class="fav"><3</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
