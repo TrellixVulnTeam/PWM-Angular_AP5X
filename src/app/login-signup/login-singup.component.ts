@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { Observable } from 'rxjs';
 import { JSONService } from '../../services/json.service';
+import { AuthService } from '../../services/auth.service'
 
 @Component({
   selector: 'app-login-singup',
@@ -28,44 +29,22 @@ export class LoginSingupComponent {
   id:number = 0;
 
   constructor( private http:HttpClient, public json_:JSONService,
-      public firestore: AngularFirestore) {
+      public firestore: AngularFirestore, public auth:AuthService) {
       this.users= firestore.collection('usuarios').valueChanges();
       this.users.forEach((u) => {
-        this.id = u.length;
+        for(let i = 0; i < u.length; i++){
+          this.id = u.length
+        }
       })
    }
 
-  async register(){
-    if(!this.exists(this.userRegister.correo.trim())){
-      this.firestore.collection("usuarios").doc(this.id+"").set({
-        nombre: this.userRegister.nombre,
-        correo: this.userRegister.correo,
-        password: this.userRegister.password,
-        lista_Fav:[],
-        lista_Compra:[]
-      }).then(() => {
-        alert("Usuario " + this.userRegister.nombre + " creado");
-      });
-    }else{
-      alert("Ya existe un usuario con ese correo.")
-    }
-  }
-
-  
-  protected exists(correo:string):boolean{
-    this.users.forEach((u) => {
-      for( let i = 0; i < u.length; i++){
-        if(u[i].correo == correo){
-          return true;
-        }
-      }
-      return false;
-    });
-    return false;
+  register(){
+    var x = this.auth.RegisterNewUser(this.userRegister.correo, this.userRegister.password);
+    console.log(x);
   }
 
   login() {
-    
+    var x = this.auth.SignIn(this.userLogIn.correo, this.userLogIn.password);
+    console.log(x);
   }
-
 }
