@@ -4,6 +4,8 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { Observable } from 'rxjs';
 import { JSONService } from '../../services/json.service';
 import { AuthService } from '../../services/auth.service'
+import { User } from 'src/interfaces/user.class';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-singup',
@@ -14,37 +16,37 @@ import { AuthService } from '../../services/auth.service'
 
 export class LoginSingupComponent {
   /* Atributos */
-  userLogIn = {
+
+  userLogIn:User = {
     password:"",
     correo:"",
   }
 
-  userRegister = {
-    nombre:"",
+  userRegister:User = {
     password:"",
     correo:"",
   }
 
-  users:Observable<any[]>;
-  id:number = 0;
+  constructor( private http:HttpClient, public auth:AuthService,
+    private route: Router) {}
 
-  constructor( private http:HttpClient, public json_:JSONService,
-      public firestore: AngularFirestore, public auth:AuthService) {
-      this.users= firestore.collection('usuarios').valueChanges();
-      this.users.forEach((u) => {
-        for(let i = 0; i < u.length; i++){
-          this.id = u.length
-        }
-      })
-   }
-
-  register(){
-    var x = this.auth.RegisterNewUser(this.userRegister.correo, this.userRegister.password);
-    console.log(x);
+  async register(){
+    const x = await this.auth.RegisterNewUser(this.userRegister);
+    if(x != null){
+      console.log("Usuario " + this.userRegister.correo + " creado exitosamente");
+      this.route.navigateByUrl('/catalogo');
+    }else{
+      console.log("No se pudo crear el usuario")
+    }
   }
 
-  login() {
-    var x = this.auth.SignIn(this.userLogIn.correo, this.userLogIn.password);
-    console.log(x);
+  async login() {
+    const x = await this.auth.SignIn(this.userRegister);
+    if(x != null){
+      console.log("Usuario " + this.userRegister.correo + " logeado exitosamente");
+      this.route.navigateByUrl('/catalogo');
+    }else{
+      console.log("No se pudo loggear el usuario")
+    }
   }
 }
