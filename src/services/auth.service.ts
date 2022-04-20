@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from 'firebase/auth'
+import { Router } from '@angular/router';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, setPersistence, browserSessionPersistence} from 'firebase/auth'
 import { User } from 'src/interfaces/user.class';
 
 @Injectable({
@@ -11,18 +12,18 @@ export class AuthService {
 
   public isLogged:any = false;
 
-  constructor(public auth: AngularFireAuth){
+  constructor(public auth: AngularFireAuth, public router:Router){
     auth.authState.subscribe( user => (this.isLogged = user));
   }
 
   async SignIn(user:User){
     try{
       return await this.auth.signInWithEmailAndPassword(
-        user.correo, 
+        user.correo.toString().toLowerCase().trim(), 
         user.password
-        );
+      );
     } catch (err){
-      console.log('Error on login', err);
+      console.error('Error on login', err);
       return null;
     }
   }
@@ -30,12 +31,13 @@ export class AuthService {
   async RegisterNewUser(user:User){
     try{
       return await this.auth.createUserWithEmailAndPassword(
-        user.correo, 
+        user.correo.toString().toLowerCase().trim(), 
         user.password
       );
     } catch (err){
-      console.log('Error on register', err);
+      console.error('Error on register', err);
       return null;
     }
   }
+ 
 }

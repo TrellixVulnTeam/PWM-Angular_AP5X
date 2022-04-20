@@ -14,7 +14,7 @@ import { InicioComponent } from './perfil/inicio/inicio.component';
 
 const routes: Routes = [
   {path:'', component:LoginSingupComponent},
-  {path:"catalogo", component: CatalogoComponent},
+  {path:"catalogo/:user", component: CatalogoComponent},
   {path:"login-singup", component: LoginSingupComponent},
   {path:'cesta', component:CestaComponent},
   {path:'op-tienda', component:OpcionTiendaComponent},

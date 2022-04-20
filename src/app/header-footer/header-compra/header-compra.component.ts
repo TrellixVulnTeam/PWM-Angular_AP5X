@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header-compra.component.html',
   styleUrls: ['./header-compra.component.css']
 })
-export class HeaderCompraComponent implements OnInit {
+export class HeaderCompraComponent {
 
-  constructor() { }
+  nombre = "";
+  constructor() {}
 
-  ngOnInit(): void {
+  setNombre(nombre:string){
+    this.nombre = nombre;
   }
+
 
 }

@@ -1,8 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { Observable } from 'rxjs';
-import { JSONService } from '../../services/json.service';
 import { AuthService } from '../../services/auth.service'
 import { User } from 'src/interfaces/user.class';
 import { Router } from '@angular/router';
@@ -41,9 +39,9 @@ export class LoginSingupComponent {
   }
 
   async login() {
-    const x = await this.auth.SignIn(this.userRegister);
+    const x = await this.auth.SignIn(this.userLogIn);
     if(x != null){
-      console.log("Usuario " + this.userRegister.correo + " logeado exitosamente");
+      console.log("Usuario " + this.userLogIn.correo + " logeado exitosamente");
       this.route.navigateByUrl('/catalogo');
     }else{
       console.log("No se pudo loggear el usuario")
