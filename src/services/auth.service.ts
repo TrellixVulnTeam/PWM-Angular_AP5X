@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { Router } from '@angular/router';
+import { initializeApp } from 'firebase/app';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, setPersistence, browserSessionPersistence} from 'firebase/auth'
 import { User } from 'src/interfaces/user.class';
+import { getAnalytics, setUserProperties } from 'firebase/analytics'
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +25,7 @@ export class AuthService {
         user.password
       );
     } catch (err){
-      console.error('Error on login', err);
+      console.error('Error on login: ', err);
       return null;
     }
   }
@@ -35,7 +37,7 @@ export class AuthService {
         user.password
       );
     } catch (err){
-      console.error('Error on register', err);
+      console.error('Error on register: ', err);
       return null;
     }
   }
