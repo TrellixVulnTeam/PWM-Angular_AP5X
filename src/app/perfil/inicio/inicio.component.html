@@ -1,0 +1,39 @@
+<app-header-compra></app-header-compra>
+<div class="f-gris">
+    <!--Imagen del usuario-->
+    <div class="pict flex">
+        <img src="../../../assets/images/Logos/Usuario.png" id="userPicture" width="200" height="200" />
+        <div>
+            <input type="submit" routerLink="/catalogo" value="Catálogo">
+        </div>
+        <div>
+            <input type="submit" routerLink="" value="Compras realizadas">
+        </div>
+    </div>
+    <!--Fondo de los datos-->
+    <div class="recuadro">
+        <!--zona de los datos-->
+        <div class="datos">
+            <div>
+                <p id="userName">Nombre completo</p>
+            </div>
+            <!--
+            <div>
+                <p id="userAge">Edad</p>
+            </div>
+            
+            <div>
+                <p id="userWallet">Cartera</p>
+            </div>
+            -->
+        </div>
+        <!--Zona ubicación-->
+        <div class="mapa">
+            <p>Ubicación</p>
+            <div style="background-color: grey; width: 300px; height: 300px;" id="userUbicacion">
+                mapa
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer style="position: fixed;"></app-footer>
