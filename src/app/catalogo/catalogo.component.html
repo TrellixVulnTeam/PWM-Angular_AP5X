@@ -2,7 +2,7 @@
 <div class="padre" id="productos">
     <div *ngFor="let producto of productos" class="imagen">
             <a [routerLink]="['/objeto', producto.id]">
-                <img [src]='producto.mainPhoto' id='producto.id' />
+                <img [src]="producto.mainPhoto" id='producto.id'/>
                 <div class="content">
                     <h2>{{producto.nombre}}</h2>
                     <p id="precio">{{producto.precio}}€</p>
@@ -10,18 +10,5 @@
                 </div>
             </a>
     </div>
-    <!--Template de como deberían se formatean las fotos-->
-    <!--
-    <div class="imagen">
-        <a href="/web/Compra/ComprarObjeto/objEmpresa.html">
-            <img src="/img/catalogo/Img_pruebas1.jpg" id="idImg1" />
-            <div class="content">
-                <h2>Objeto</h2>
-                <p>Bonita chaqueta de jugador de rugby, anchita y tal...</p>
-                <p id="precio">35€</p>
-            </div>
-        </a>
-    </div>
-    -->
 </div>
 <app-footer></app-footer>

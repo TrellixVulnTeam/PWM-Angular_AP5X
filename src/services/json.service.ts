@@ -16,6 +16,6 @@ export class JSONService{
 
     getJSONProducts(){
         const url:string = "../../assets/datos/objetos.json";
-        return this.http.get<Product>(url);
+        return this.http.get<Product[]>(url);
     }
 }

@@ -1,217 +1,217 @@
-{
-  "Productos": [
-    {
-      "id": 0,
-      "nombre": "Chaqueta de rugby",
-      "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
-      "precio": 41,
-      "categoria": "Abrigo",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas1.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5 ]
-      ]
-    },
-    {
-      "id": 1,
-      "nombre": "Chaqueta de rugby",
-      "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
-      "precio": 42,
-      "categoria": "Abrigo",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas2.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5 ]
-      ]
-    },
-    {
-      "id": 2,
-      "nombre": "Chaqueta de rugby",
-      "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
-      "precio": 43,
-      "categoria": "Abrigo",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas3.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5 ]
-      ]
-    },
-    {
-      "id": 3,
-      "nombre": "Chaqueta de rugby",
-      "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
-      "precio": 44,
-      "categoria": "Abrigo",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas4.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5 ]
-      ]
-    },
-    {
-      "id": 4,
-      "nombre": "Chaqueta de rugby",
-      "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
-      "precio": 55,
-      "categoria": "Abrigo",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas5.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5 ]
-      ]
-    },
-    {
-      "id": 5,
-      "nombre": "Chaqueta de rugby",
-      "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
-      "precio": 56,
-      "categoria": "Abrigo",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaRugby/Img_pruebas6.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaRugby/img1.jpg", 0 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img2.jpg", 1 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img3.jpg", 2 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img4.jpg", 3 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img5.jpg", 4 ],
-        [ "../../assets/images/objetos/ChaquetaRugby/img6.jpg", 5 ]
-      ]
-    },
-    {
-      "id": 6,
-      "nombre": "Cazadora denim cropped",
-      "descripcion": "Bonita chaqueta cropped vaquera.",
-      "precio": 25.98,
-      "categoria": "Cazadora",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaVaquera/Img_pruebas7.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaVaquera/img7.jpg", 6 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img8.jpg", 7 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img9.jpg", 8 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img10.jpg", 9 ]
-      ]
-    },
-    {
-      "id": 7,
-      "nombre": "Cazadora denim cropped",
-      "descripcion": "Bonita chaqueta cropped vaquera.",
-      "precio": 25.98,
-      "categoria": "Cazadora",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaVaquera/Img_pruebas8.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaVaquera/img7.jpg", 6 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img8.jpg", 7 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img9.jpg", 8 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img10.jpg", 9 ]
-      ]
-    },
-    {
-      "id": 8,
-      "nombre": "Cazadora denim cropped",
-      "descripcion": "Bonita chaqueta cropped vaquera.",
-      "precio": 25.98,
-      "categoria": "Cazadora",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaVaquera/Img_pruebas9.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaVaquera/img7.jpg", 6 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img8.jpg", 7 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img9.jpg", 8 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img10.jpg", 9 ]
-      ]
-    },
-    {
-      "id": 9,
-      "nombre": "Cazadora denim cropped",
-      "descripcion": "Bonita chaqueta cropped vaquera.",
-      "precio": 25.98,
-      "categoria": "Cazadora",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaVaquera/Img_pruebas10.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaVaquera/img7.jpg", 6 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img8.jpg", 7 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img9.jpg", 8 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img10.jpg", 9 ]
-      ]
-    },
-    {
-      "id": 10,
-      "nombre": "Blazer cruzada botón",
-      "descripcion": "Chaqueta blazer con cruzado abotonado",
-      "precio": 35,
-      "categoria": "Chaqueta",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaBlazer/Img_pruebas11.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaVaquera/img11.jpg", 10 ],
-        [ "../../assets/images/objetos/ChaquetaVaquera/img12.jpg", 11 ]
-      ]
-    },
-    {
-      "id": 11,
-      "nombre": "Blazer cruzada botón",
-      "descripcion": "Chaqueta blazer con cruzado abotonado",
-      "precio": 35,
-      "categoria": "Chaqueta",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaBlazer/Img_pruebas12.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaBlazer/img11.jpg", 10 ],
-        [ "../../assets/images/objetos/ChaquetaBlazer/img12.jpg", 11 ]
-      ]
-    },
-    {
-      "id": 12,
-      "nombre": "Chaleco efecto nylon reversible",
-      "descripcion": "Chaleco con efecto nylon",
-      "precio": 20,
-      "categoria": "Chalecos",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaChaleco/Img_pruebas13.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaChaleco/img11.jpg", 12 ],
-        [ "../../assets/images/objetos/ChaquetaChaleco/img12.jpg", 13 ]
-      ]
-    },
-    {
-      "id": 13,
-      "nombre": "Chaleco efecto nylon reversible",
-      "descripcion": "Chaleco con efecto nylon",
-      "precio": 20,
-      "categoria": "Chalecos",
-      "empresa": "ULPGC",
-      "mainPhoto": "../../assets/images/objetos/ChaquetaChaleco/Img_pruebas14.jpg",
-      "altPhotos": [
-        [ "../../assets/images/objetos/ChaquetaChaleco/img11.jpg", 12 ],
-        [ "../../assets/images/objetos/ChaquetaChaleco/img12.jpg", 13 ]
-      ]
-    }]
-}
+[
+  {
+    "id": 0,
+    "nombre": "Chaqueta de rugby",
+    "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+    "precio": 41,
+    "categoria": "Abrigo",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2FImg_pruebas1.jpg?alt=media&token=14e4a095-b629-41e7-9261-33721d45a7f9",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg1.jpg?alt=media&token=bb157a61-82a8-4243-9b12-84f7d8f4983b", "id":0},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg2.jpg?alt=media&token=a2986ac1-875d-4763-9a8c-10e01fbfc33a", "id":1},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg3.jpg?alt=media&token=99d4f071-a00a-4b4c-8592-9626b3d5cf6d", "id":2},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg4.jpg?alt=media&token=8c79679a-aa93-493b-8035-c61dd7bfe255", "id":3},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg5.jpg?alt=media&token=79821121-e97b-45e6-a83e-ce426b965ab3", "id":4},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg6.jpg?alt=media&token=c909f10f-d889-4ec3-abf1-27e2b1af1cd4", "id":5}
+    ]
+  },
+  {
+    "id": 1,
+    "nombre": "Chaqueta de rugby",
+    "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+    "precio": 42,
+    "categoria": "Abrigo",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2FImg_pruebas2.jpg?alt=media&token=c4a648ee-1cd5-43c9-928c-64d1e9e6bf48",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg1.jpg?alt=media&token=bb157a61-82a8-4243-9b12-84f7d8f4983b", "id":0},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg2.jpg?alt=media&token=a2986ac1-875d-4763-9a8c-10e01fbfc33a", "id":1},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg3.jpg?alt=media&token=99d4f071-a00a-4b4c-8592-9626b3d5cf6d", "id":2},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg4.jpg?alt=media&token=8c79679a-aa93-493b-8035-c61dd7bfe255", "id":3},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg5.jpg?alt=media&token=79821121-e97b-45e6-a83e-ce426b965ab3", "id":4},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg6.jpg?alt=media&token=c909f10f-d889-4ec3-abf1-27e2b1af1cd4", "id":5}
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Chaqueta de rugby",
+    "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+    "precio": 43,
+    "categoria": "Abrigo",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2FImg_pruebas3.jpg?alt=media&token=c7e4ba97-1050-4fbd-a689-931990b8fc75",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg1.jpg?alt=media&token=bb157a61-82a8-4243-9b12-84f7d8f4983b", "id":0},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg2.jpg?alt=media&token=a2986ac1-875d-4763-9a8c-10e01fbfc33a", "id":1},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg3.jpg?alt=media&token=99d4f071-a00a-4b4c-8592-9626b3d5cf6d", "id":2},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg4.jpg?alt=media&token=8c79679a-aa93-493b-8035-c61dd7bfe255", "id":3},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg5.jpg?alt=media&token=79821121-e97b-45e6-a83e-ce426b965ab3", "id":4},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg6.jpg?alt=media&token=c909f10f-d889-4ec3-abf1-27e2b1af1cd4", "id":5}
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Chaqueta de rugby",
+    "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+    "precio": 44,
+    "categoria": "Abrigo",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2FImg_pruebas4.jpg?alt=media&token=ed5bbadb-f2a7-4b2e-a22f-fc59ea45cb45",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg1.jpg?alt=media&token=bb157a61-82a8-4243-9b12-84f7d8f4983b", "id":0},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg2.jpg?alt=media&token=a2986ac1-875d-4763-9a8c-10e01fbfc33a", "id":1},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg3.jpg?alt=media&token=99d4f071-a00a-4b4c-8592-9626b3d5cf6d", "id":2},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg4.jpg?alt=media&token=8c79679a-aa93-493b-8035-c61dd7bfe255", "id":3},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg5.jpg?alt=media&token=79821121-e97b-45e6-a83e-ce426b965ab3", "id":4},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg6.jpg?alt=media&token=c909f10f-d889-4ec3-abf1-27e2b1af1cd4", "id":5}
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Chaqueta de rugby",
+    "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+    "precio": 55,
+    "categoria": "Abrigo",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2FImg_pruebas5.jpg?alt=media&token=d1116981-10a5-4465-8d55-12addb347d6d",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg1.jpg?alt=media&token=bb157a61-82a8-4243-9b12-84f7d8f4983b", "id":0},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg2.jpg?alt=media&token=a2986ac1-875d-4763-9a8c-10e01fbfc33a", "id":1},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg3.jpg?alt=media&token=99d4f071-a00a-4b4c-8592-9626b3d5cf6d", "id":2},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg4.jpg?alt=media&token=8c79679a-aa93-493b-8035-c61dd7bfe255", "id":3},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg5.jpg?alt=media&token=79821121-e97b-45e6-a83e-ce426b965ab3", "id":4},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg6.jpg?alt=media&token=c909f10f-d889-4ec3-abf1-27e2b1af1cd4", "id":5}
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Chaqueta de rugby",
+    "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
+    "precio": 56,
+    "categoria": "Abrigo",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2FImg_pruebas6.jpg?alt=media&token=8ffd9927-688b-4fd7-a209-911a9bf5f61d",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg1.jpg?alt=media&token=bb157a61-82a8-4243-9b12-84f7d8f4983b", "id":0},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg2.jpg?alt=media&token=a2986ac1-875d-4763-9a8c-10e01fbfc33a", "id":1},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg3.jpg?alt=media&token=99d4f071-a00a-4b4c-8592-9626b3d5cf6d", "id":2},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg4.jpg?alt=media&token=8c79679a-aa93-493b-8035-c61dd7bfe255", "id":3},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg5.jpg?alt=media&token=79821121-e97b-45e6-a83e-ce426b965ab3", "id":4},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Rugby%2Fimg6.jpg?alt=media&token=c909f10f-d889-4ec3-abf1-27e2b1af1cd4", "id":5}
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Cazadora denim cropped",
+    "descripcion": "Bonita chaqueta cropped vaquera.",
+    "precio": 25.98,
+    "categoria": "Cazadora",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2FImg_pruebas7.jpg?alt=media&token=b49dcb28-75fd-4081-a519-f60f9056b03d",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg7.jpg?alt=media&token=aefb4365-1cb8-4437-a2ee-4c819d7c5783",  "id":6},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg8.jpg?alt=media&token=007b3134-ce32-4e6a-bc9c-787c166137cb",  "id":7},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg9.jpg?alt=media&token=1b32b772-c3c4-4cce-8efe-683f3899ec5d",  "id":8},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg10.jpg?alt=media&token=01e20511-bfd2-43a2-b7b5-b874380cc238", "id":9}
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Cazadora denim cropped",
+    "descripcion": "Bonita chaqueta cropped vaquera.",
+    "precio": 25.98,
+    "categoria": "Cazadora",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2FImg_pruebas8.jpg?alt=media&token=d5b4c90e-fb69-44aa-8d40-4c1b038e959d",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg7.jpg?alt=media&token=aefb4365-1cb8-4437-a2ee-4c819d7c5783",  "id":6},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg8.jpg?alt=media&token=007b3134-ce32-4e6a-bc9c-787c166137cb",  "id":7},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg9.jpg?alt=media&token=1b32b772-c3c4-4cce-8efe-683f3899ec5d",  "id":8},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg10.jpg?alt=media&token=01e20511-bfd2-43a2-b7b5-b874380cc238", "id":9}
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Cazadora denim cropped",
+    "descripcion": "Bonita chaqueta cropped vaquera.",
+    "precio": 25.98,
+    "categoria": "Cazadora",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2FImg_pruebas9.jpg?alt=media&token=c311d1ad-277e-4a8d-b195-00dd96b1eda6",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg7.jpg?alt=media&token=aefb4365-1cb8-4437-a2ee-4c819d7c5783",  "id":6},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg8.jpg?alt=media&token=007b3134-ce32-4e6a-bc9c-787c166137cb",  "id":7},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg9.jpg?alt=media&token=1b32b772-c3c4-4cce-8efe-683f3899ec5d",  "id":8},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg10.jpg?alt=media&token=01e20511-bfd2-43a2-b7b5-b874380cc238", "id":9}
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Cazadora denim cropped",
+    "descripcion": "Bonita chaqueta cropped vaquera.",
+    "precio": 25.98,
+    "categoria": "Cazadora",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2FImg_pruebas10.jpg?alt=media&token=2f3cc291-3ec0-4543-ad2e-281f79eeb172",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg7.jpg?alt=media&token=aefb4365-1cb8-4437-a2ee-4c819d7c5783",  "id":6},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg8.jpg?alt=media&token=007b3134-ce32-4e6a-bc9c-787c166137cb",  "id":7},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg9.jpg?alt=media&token=1b32b772-c3c4-4cce-8efe-683f3899ec5d",  "id":8},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Vaquera%2Fimg10.jpg?alt=media&token=01e20511-bfd2-43a2-b7b5-b874380cc238", "id":9}
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Blazer cruzada botón",
+    "descripcion": "Chaqueta blazer con cruzado abotonado",
+    "precio": 35,
+    "categoria": "Chaqueta",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Blazer%2FImg_pruebas11.jpg?alt=media&token=67f3cc8d-6b3e-4d4e-9b95-5ff14a75b4ff",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Blazer%2Fimg11.jpg?alt=media&token=bc245112-46fe-4544-a905-a20bf8bdb807",  "id":10},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Blazer%2Fimg12.jpg?alt=media&token=83853522-49b8-4931-85f1-c2444603cb84",  "id":11}
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Blazer cruzada botón",
+    "descripcion": "Chaqueta blazer con cruzado abotonado",
+    "precio": 35,
+    "categoria": "Chaqueta",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Blazer%2FImg_pruebas12.jpg?alt=media&token=e13c49f5-4147-4a94-b032-2e00979cbb44",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Blazer%2Fimg11.jpg?alt=media&token=bc245112-46fe-4544-a905-a20bf8bdb807",  "id":10},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Blazer%2Fimg12.jpg?alt=media&token=83853522-49b8-4931-85f1-c2444603cb84",  "id":11}
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Chaleco efecto nylon reversible",
+    "descripcion": "Chaleco con efecto nylon",
+    "precio": 20,
+    "categoria": "Chalecos",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Chaleco%2FImg_pruebas13.jpg?alt=media&token=991ad995-acad-439f-a20d-def8516f4ff4",
+    "altPhotos": [
+    {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Chaleco%2Fimg13.jpg?alt=media&token=01c6c142-4bd8-4e7e-878e-783f5b63cd03",  "id":12},
+    {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Chaleco%2Fimg14.jpg?alt=media&token=07346e20-2299-4bb4-9695-1bbeaf23c34f",  "id":13}
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Chaleco efecto nylon reversible",
+    "descripcion": "Chaleco con efecto nylon",
+    "precio": 20,
+    "categoria": "Chalecos",
+    "empresa": "ULPGC",
+    "mainPhoto": "https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Chaleco%2FImg_pruebas14.jpg?alt=media&token=1b11b148-90f3-403a-9e5e-5a508bf74cbf",
+    "altPhotos": [
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Chaleco%2Fimg13.jpg?alt=media&token=01c6c142-4bd8-4e7e-878e-783f5b63cd03",  "id":12},
+      {"url":"https://firebasestorage.googleapis.com/v0/b/pwm-angular-shoppin-web.appspot.com/o/Fotos_Catalogo%2FChaqueta_Chaleco%2Fimg14.jpg?alt=media&token=07346e20-2299-4bb4-9695-1bbeaf23c34f",  "id":13}
+    ]
+  }
+]
+
