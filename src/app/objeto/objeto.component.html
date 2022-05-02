@@ -2,28 +2,26 @@
 <div class="med">
     <!--Div imagen-->
     <div>
-        <img id="mainPhoto" class="img"/>
+        <img id="mainPhoto" class="img" [src]="objeto.mainPhoto"/>
     </div>
-
+      
     <!--Div información-->
     <div class="recuadro">
         <!--Info-->
         <div>
-            <div><h2 id="objName"></h2></div>
-            <div><h3 id="precio"></h3></div>
-            <div><p id="empresa"></p></div>
+            <div><h2 id="objName">{{objeto.nombre}}</h2></div>
+            <div><h3 id="precio">{{objeto.precio}}€</h3></div>
+            <div><p  id="empresa">{{objeto.empresa}}</p></div>
         </div>
-
+        
         <!--Fotos de otros colores-->
         <div class="flex" id="altPhotos">
-            <!-- Esto se usará luego para la realización de colores alternativos -->
-            <template>
-                <div><img src="/img/Objeto/img2.jpg" id="alt1" class="opcion" /></div>
-            </template>
-            <div *ngFor="let altImg of "></div>
-        </div>
-
-        <br>
+            <a *ngFor="let alt of objeto.altPhotos" 
+            [routerLink]="['/objeto', alt.id]"
+            (click)="refresh();">
+                <div><img src="{{alt.url}}" id="{{alt.id}}" class="opcion" /></div>  
+            </a>
+        </div><br>
         <div>
             <!--Tallas y fav-->
             <div>
@@ -36,7 +34,7 @@
                     <option value="xl">XL</option>
                 </select>
             </div>
-
+        
             <!--Añadir al carrito con las opciones seleccionadas-->
             <div class="flex">
                 <input type="button" id="addCarrito" onclick="addCarrito" value="Añadir al carrito">
@@ -49,3 +47,4 @@
     </div>
 </div>
 <app-footer></app-footer>
+            
