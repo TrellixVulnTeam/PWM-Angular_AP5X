@@ -26,6 +26,7 @@ import { PayComponent } from './cesta/opciones/pay/pay.component';
 import { InicioComponent } from './perfil/inicio/inicio.component';
 import { FavoritosComponent } from './perfil/favoritos/favoritos.component';
 import { ObjetoComponent } from './objeto/objeto.component';
+import { AddObjectComponent } from './add-object/add-object.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ObjetoComponent } from './objeto/objeto.component';
     PayComponent,
     InicioComponent,
     FavoritosComponent,
-    ObjetoComponent
+    ObjetoComponent,
+    AddObjectComponent
   ],
   imports: [
     BrowserModule,

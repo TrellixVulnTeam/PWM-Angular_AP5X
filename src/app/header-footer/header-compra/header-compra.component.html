@@ -1,17 +1,17 @@
 <header>
     <div class="cab-fondo">
         <!--Nombre de la tienda-->
-        <div class="nombre">
-            <p>Nombre</p>
-        </div>
+        <a href="/catalogo" class="nombre">
+            <p>Baller's</p>
+        </a>
         <!--Parte del usuario-->
         <div>
             <a routerLink="/perfil-inicio">
                 <div class="cuadro">
-                    <img src="../../../assets/images/Logos/Usuario.png" id="foto-u" class="foto">
+                    <img src="{{userImg}}" id="foto-u" class="foto">
                 </div>
                 <div>
-                    <p id="nombreUser" class="userName">{{nombre}}</p>
+                    <p id="nombreUser" class="userName">{{auth_.getUsername()}}</p>
                 </div>
             </a>
         </div>

@@ -41,7 +41,8 @@ div.flex{
     flex-direction: column;
 }
 
-input[type="submit"]{
+input[type="submit"],
+input[type="file"]{
     text-align: center;
     border-radius: 10px;
     font-size: large;
@@ -52,7 +53,8 @@ input[type="submit"]{
     margin:10px;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover,
+input[type="file"]:hover{
     background-color: #999;
 }
 
@@ -153,13 +155,15 @@ div.r-full {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
-    input[type="submit"]{
+    input[type="submit"],
+    input[type="file"]{
         padding: 25px; 
     }
 }
 
 @media screen and (min-width:600px) and (max-width:800px) {
-    input[type="submit"]{
+    input[type="submit"],
+    input[type="file"]{
         padding: 20px; 
     }
     .f-gris {

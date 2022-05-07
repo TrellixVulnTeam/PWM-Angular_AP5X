@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { JSONService } from '../../services/json.service';
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import { AuthService } from 'src/services/auth.service';
+import { FirestoreService } from 'src/services/firestore.service';
 
 @Component({
   selector: 'app-catalogo',
@@ -13,14 +11,11 @@ export class CatalogoComponent {
 
   public productos:any = [];
 
-  auth = getAuth();
-  constructor(public json:JSONService,  ){
-     
-    this.json.getJSONProducts()
-            .subscribe( resp => {
-               let aux:any = resp;
-			         this.productos = aux.Productos;
-            });
+  constructor(private dbService:FirestoreService){
+    //dbService.addJSONToFirebase();
+    this.dbService.getAllProducts()
+    .then(data => {
+      this.productos = data;
+    });
   }
-
 }
