@@ -32,19 +32,19 @@ export class InicioComponent implements OnInit {
 
     
   async onUpload(e:any){
-    const id = this.userName;
-    console.log("id", id);
-    const filePath = 'Profile_images/'+id;
-    console.log("path", filePath);
-    
-    const ref = this.storage.ref(filePath);
+    const filePath = 'Profile_images/' + this.userName;
     const task = this.storage.upload(filePath, e.target.files[0]);
     this.getUserImg(this.userName);
   }
 
   async getUserImg(userName: string){    
-    this.storage.ref("Profile_images/" + userName)
-    .getDownloadURL().subscribe((data) => this.userImg = data);
+    try{
+      this.storage.ref("Profile_images/" + userName)
+      .getDownloadURL().subscribe((data) => this.userImg = data);
+    }catch(err){
+      this.storage.ref("Profile_images/Usuario.png")
+      .getDownloadURL().subscribe((data) => this.userImg = data);
+    }
   }
   
 }
