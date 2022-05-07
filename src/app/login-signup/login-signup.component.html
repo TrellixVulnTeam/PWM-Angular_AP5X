@@ -1,5 +1,6 @@
 <!--Fondo y backgroun-->
 <div class="recuadro">
+    <div>Se han borrado la mayoría de las cuentas, intenta loggearte, si no puedes, regístrate</div>
     <div>
         <!--cabecera Inicio sesion-->
         <div class="recuadro-login w100 izq">
@@ -10,12 +11,14 @@
                 <!--<form action="LogIn">-->
                 <form #forma1="ngForm">
                     <div>
-                        <input type="email" class="txtsin" id="LoginEmail" placeholder="Dirección de e-mail" required
+                        <input type="email" class="txtsin" id="LoginEmail" 
+                            placeholder="Dirección de e-mail" required
                             #email = "ngModel" [(ngModel)] = "userLogIn.correo" name="email"
                         />
                     </div>
                     <div>
-                        <input type="password" class="txtsin" id="LoginPass" placeholder="Contraseña" required
+                        <input type="password" class="txtsin" id="LoginPass" 
+                        placeholder="Contraseña" required
                             #password="ngModel" [(ngModel)]="userLogIn.password" name="password"
                         />
                     </div>
@@ -87,6 +90,3 @@
         </div>
     </div>
 </div>
-<!--div class="der img-pos">
-    <img src="/img/Logos/b2c7de1951d5d57e9305c96ca875e170-bolsas-de-compra.png">
-</div-->

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import { AuthService } from 'src/services/auth.service';
 
 @Component({
   selector: 'app-header-compra',
@@ -8,9 +9,7 @@ import { getAuth, onAuthStateChanged } from 'firebase/auth';
 })
 export class HeaderCompraComponent {
 
-  nombre = "";
-
-  constructor() {
+  constructor(public auth_:AuthService) {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       try{
@@ -24,7 +23,7 @@ export class HeaderCompraComponent {
   }
 
   setNombre(nombre:string){
-    this.nombre = nombre;
+    this.auth_.correo = nombre;
   }
 
 

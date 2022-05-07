@@ -12,6 +12,7 @@ export class CatalogoComponent {
   public productos:any = [];
 
   constructor(private dbService:FirestoreService){
+    //dbService.addJSONToFirebase();
     this.dbService.getAllProducts()
     .then(data => {
       this.productos = data;

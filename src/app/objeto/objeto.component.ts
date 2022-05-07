@@ -21,7 +21,13 @@ export class ObjetoComponent implements OnInit {
 
     const productos = this.dbService.getAllProducts();
     productos.then((data) => {
-      this.objeto = data[id];
+      for(let i = 0; i < data.length; i++){
+        if(data[i].id === id){
+          this.objeto = data[i]
+          break;
+        }
+      }
+      console.log(data)
       console.log(this.objeto)
     })
   }

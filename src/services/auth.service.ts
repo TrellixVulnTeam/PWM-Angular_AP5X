@@ -12,6 +12,7 @@ import { getAnalytics, setUserProperties } from 'firebase/analytics'
 
 export class AuthService {
 
+  public correo = "";
   public isLogged:any = false;
 
   constructor(public auth: AngularFireAuth, public router:Router){
@@ -20,6 +21,7 @@ export class AuthService {
 
   async SignIn(user:User){
     try{
+      this.correo = user.correo; 
       return await this.auth.signInWithEmailAndPassword(
         user.correo.toString().toLowerCase().trim(), 
         user.password
@@ -32,6 +34,7 @@ export class AuthService {
 
   async RegisterNewUser(user:User){
     try{
+      this.correo = user.correo; 
       return await this.auth.createUserWithEmailAndPassword(
         user.correo.toString().toLowerCase().trim(), 
         user.password
@@ -40,6 +43,10 @@ export class AuthService {
       console.error('Error on register: ', err);
       return null;
     }
+  }
+
+  getUsername(){
+    return this.correo;
   }
  
 }

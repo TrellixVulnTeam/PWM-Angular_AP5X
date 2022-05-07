@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { Product } from 'src/interfaces/product';
+import { AngularFireStorage } from '@angular/fire/compat/storage'
+import { finalize, Observable } from 'rxjs';
+import { FileUpload } from 'src/interfaces/fileUpload';
+import { AuthService } from './auth.service';
 import { JSONService } from './json.service';
 
 @Injectable({
@@ -10,6 +13,8 @@ import { JSONService } from './json.service';
 export class FirestoreService {
 
   constructor(private db: AngularFirestore,
+    private storage: AngularFireStorage,
+    private auth:AuthService,
     public json:JSONService) { }
 
   async getAllProducts(){

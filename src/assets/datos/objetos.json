@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": "000",
     "nombre": "Chaqueta de rugby",
     "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
     "precio": 41,
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": "001",
     "nombre": "Chaqueta de rugby",
     "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
     "precio": 42,
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "002",
     "nombre": "Chaqueta de rugby",
     "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
     "precio": 43,
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "003",
     "nombre": "Chaqueta de rugby",
     "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
     "precio": 44,
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "004",
     "nombre": "Chaqueta de rugby",
     "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
     "precio": 55,
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "005",
     "nombre": "Chaqueta de rugby",
     "descripcion": "Bonita chaqueta de jugador de rugby, anchita y tal...",
     "precio": 56,
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": "006",
     "nombre": "Cazadora denim cropped",
     "descripcion": "Bonita chaqueta cropped vaquera.",
     "precio": 25.98,
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": "007",
     "nombre": "Cazadora denim cropped",
     "descripcion": "Bonita chaqueta cropped vaquera.",
     "precio": 25.98,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": "008",
     "nombre": "Cazadora denim cropped",
     "descripcion": "Bonita chaqueta cropped vaquera.",
     "precio": 25.98,
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": "009",
     "nombre": "Cazadora denim cropped",
     "descripcion": "Bonita chaqueta cropped vaquera.",
     "precio": 25.98,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": "010",
     "nombre": "Blazer cruzada botón",
     "descripcion": "Chaqueta blazer con cruzado abotonado",
     "precio": 35,
@@ -175,7 +175,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": "011",
     "nombre": "Blazer cruzada botón",
     "descripcion": "Chaqueta blazer con cruzado abotonado",
     "precio": 35,
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": "012",
     "nombre": "Chaleco efecto nylon reversible",
     "descripcion": "Chaleco con efecto nylon",
     "precio": 20,
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": "013",
     "nombre": "Chaleco efecto nylon reversible",
     "descripcion": "Chaleco con efecto nylon",
     "precio": 20,
