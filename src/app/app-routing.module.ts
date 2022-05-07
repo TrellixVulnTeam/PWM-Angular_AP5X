@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddObjectComponent } from './add-object/add-object.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { CestaComponent } from './cesta/cesta/cesta.component';
 import { FormCortoComponent } from './cesta/opciones/form-corto/form-corto.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path:'op-domicilio', component:OpcionDomicilioComponent},
   {path:'form-tienda', component:FormCortoComponent},
   {path:'pay', component:PayComponent},
+  {path:'add-object', component:AddObjectComponent},
   {path:'perfil-inicio', component:InicioComponent},
   {path:'perfil-favoritos', component:FavoritosComponent},
   {path:'objeto/:id', component:ObjetoComponent},

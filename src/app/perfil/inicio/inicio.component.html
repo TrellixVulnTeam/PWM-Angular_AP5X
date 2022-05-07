@@ -3,19 +3,23 @@
     <!--Imagen del usuario-->
     <div class="pict flex">
         <img src="{{userImg}}" id="userPicture" width="200" height="200" />
-        <div>
-            <input type="submit" 
-            routerLink="/catalogo" value="Catálogo">
-        </div>
+        
         <div>
             <input type="submit" routerLink="" value="Compras realizadas">
         </div>
         <form>
-            <input type="file" (change)="onUpload($event)" accept="image/*"/>
-            <!--<button (click)="upload()" [disabled]="!selectedFile">
-                Acualizar Foto
-            </button>-->
+            <div class="flex">
+                <label for="chPicture">Cambiar la foto de perfil</label>
+                <input type="file" (change)="onUpload($event)" accept="image/*" id="chPicture"/>
+            </div>
+            <div *ngIf="showChange">
+                Recargue la página para ver los cambios
+            </div>
         </form>
+        <div>
+            <input type="submit" 
+            routerLink="/catalogo" value="Catálogo">
+        </div>
     </div>
     <!--Fondo de los datos-->
     <div class="recuadro">

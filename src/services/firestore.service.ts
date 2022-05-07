@@ -3,6 +3,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { AngularFireStorage } from '@angular/fire/compat/storage'
 import { finalize, Observable } from 'rxjs';
 import { FileUpload } from 'src/interfaces/fileUpload';
+import { NewProduct } from 'src/interfaces/newProduct';
 import { AuthService } from './auth.service';
 import { JSONService } from './json.service';
 
@@ -42,6 +43,19 @@ export class FirestoreService {
       } 
       
     });
+  }
+
+  addNewProduct(product:NewProduct){
+    this.db.collection("Objetos")
+      .doc(product.id)
+      .set({
+        nombre:product.nombre,
+        descripcion:product.descripcion,
+        ubicaciones: product.ubicaciones,
+        precio:product.precio,
+        categoria:product.categoria,
+        mainPhoto:product.mainPhoto,
+      });
   }
 
   addProduct(id:number,

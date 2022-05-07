@@ -41,12 +41,12 @@
                     <input type="email" class="txtsin" id="signInEmail" placeholder="Dirección de e-mail" required
                         email #correo = "ngModel" [(ngModel)] = "userRegister.correo" name="email"
                     />
-                    <div class="invalid-feedback" *ngIf="correo.invalid && (correo.dirty || correo.touched)">
+                    <div class="invalid-feedback" *ngIf="correo.invalid && correo.dirty">
                         <div *ngIf="correo.errors?.['required']">
                             El correo electrónico es obligatorio.
                         </div> 
                     </div>
-                    <div class="invalid-feedback" *ngIf="correo.invalid && (correo.dirty || correo.touched)">
+                    <div class="invalid-feedback" *ngIf="correo.invalid && correo.dirty">
                         <div *ngIf="correo.errors?.['email']">
                             No tiene formato de correo electrónico. 
                         </div> 

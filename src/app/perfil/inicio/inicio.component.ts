@@ -12,8 +12,8 @@ import { finalize, Observable } from 'rxjs';
 })
 export class InicioComponent implements OnInit {
 
-  userName:any = "cristobal.jjg.00";
-  userImg:Observable<string> | undefined;
+  userName:any = "";
+  showChange = false;
 
   constructor(private auth:AuthService,
     private storage: AngularFireStorage) { 
@@ -30,11 +30,12 @@ export class InicioComponent implements OnInit {
   }
 
 
-    
+  userImg:Observable<string> | undefined;
   async onUpload(e:any){
     const filePath = 'Profile_images/' + this.userName;
     const task = this.storage.upload(filePath, e.target.files[0]);
     this.getUserImg(this.userName);
+    this.showChange = true;
   }
 
   async getUserImg(userName: string){    
